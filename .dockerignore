@@ -1,0 +1,39 @@
+
+# Node.js dependencies (these will be installed in the container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Temporary files (you might not want these in the image)
+temp.js
+temp.py
+*.tmp
+
+# Build artifacts (if you're building or bundling)
+dist
+build
+
+# OS generated files (not needed in your image)
+.DS_Store
+Thumbs.db
+
+# Git-related files (for local version control only)
+.git
+.gitignore
+
+# Docker-specific files (exclude them from being copied)
+.dockerignore
+Dockerfile
+
+# IDE-specific files (exclude editor/IDE settings)
+.vscode/
+.idea/
+*.swp
+
+# Environment variables (you don’t want sensitive data in your image)
+.env
+
